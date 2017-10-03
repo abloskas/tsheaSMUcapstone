@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+h1 {
+	font-family: "Arvo";
+	font-weight: normal;
+	font-size: 80px;
+	text-align: center;
+	color: #FF0000;
+	margin: 0px;
+	padding: 0px;
+}
+h2 {
+	font-family: "Arvo";
+	font-weight: normal;
+	font-size: 55px;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+h3 {
+	font-family: "Arvo";
+	font-weight: normal;
+	font-size: 20px;
+	text-align: center;
+	color: #000000;
+	margin: 0px;
+	padding: 0px;	
+}
+.center { margin: 0 auto; }
+.content1 {margin: 0 auto; width: 960px; }
+.clear { clear: both; }
+
+#header {
+	width: 100%;
+	background-color: black;
+	height: 80px;
+	position: fixed;
+	margin-top: 30px;
+}
+#nav { width: 410px; float: right; margin-top: 20px; }
+#logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #fff; font-family: "Wellfleet"; font-weight: bold; }
+#nav ul{
+	list-style: none;
+	display: block;
+	margin: 0 auto;
+	list-style: none;
+}
+#nav li{
+	margin-top: 9px;
+	float: left;
+	padding-left: 21px;
+}
+#nav li a { color: #fff; opacity: 0.6; font-size: 16px; text-decoration: none;font-family: "Wellfleet"; }
+#nav li a.active { color: #fff; opacity: 1; border-bottom: 2px solid #fff; }
+#nav li a:hover { color: #fff; opacity: 1; }
+
+.quotes {
+	font-family: "Goudy Bookletter 1911", serif;
+	font-weight: normal;
+	font-size: 30px;
+	text-align: left;
+	margin: 50px auto;
+}
+.author_name_white { font-family: "Wellfleet"; margin: 70px 0 0 75px; color: #fff; font-size: 20px; }
+.aurthor_name_gray {font-family: "Wellfleet"; margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; }
+.quotes_container { width: 800px; margin: 0 auto; }
+#christmas_tree { background-color: black; width: 48px; height: 77px; margin: 0 auto; position: relative; bottom: -35px; }
+#divider { background-color: #166C85, no-repeat; width: 300px; height: 35px; margin: 0 auto 27px auto; }
+/*#ribbon { background: url(../../UNADJUSTEDNONRAW_thumb_31.jpg)no-repeat;  width: 251px; height: 48px; margin: 0 auto; display: block; position: relative; top: -38px; }  (----this was the backgound for tom and kate ------)   */
+#snowflakes1 { background: url(../../UNADJUSTEDNONRAW_thumb_2c.jpg)no-repeat; width: 24px; height: 21px; margin: 0 auto; display: block; position: relative; border: -54px, left: -102px; }
+#snowflakes2 { background: url(../../UNADJUSTEDNONRAW_thumb_2e.jpg)no-repeat; width: 24px; height: 21px; margin: 0 auto; display: block; position: relative; border: -33px, left: -100px; }
+#slide1, slide2 {width: 100%; }
+#slide1 {
+	background: url(../img/green-forest-trees.jpg.662x0_q70_crop-scale.jpg) 50% 0 no-repeat fixed;
+	color: #fff;
+	height: 600px;
+	margin: 0;
+	padding: 200px 0 260px 0;
+	background-size: cover;
+}
+#slide2 {
+	background-color: #FFFFFF;
+	color: #333333;
+	height: 400px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 200px 0;
+}
+#slide3 {
+	background: url(../img/hero-green-leaves-in-sunlight.jpg) 50% 0 no-repeat fixed;
+	color: #fff;
+	height: 600px;
+	padding: 170px 0 0 0;
+	background-size: cover;
+}
+#slide4 {
+	background-color: #fff;
+	color: #333333;
+	height: 400px;
+	padding: 200px 0;
+}
+#slide5 {
+	background: url(../oh-darling-lets-be-adventures-quotes.jpg) 50% no-repeat fixed;
+	height: 400px;
+	margin: 0 auto;
+	padding: 250px 0;
+	color: #fff;
+	background-size: cover;
+}
